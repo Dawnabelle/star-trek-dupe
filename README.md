@@ -1,27 +1,51 @@
-# StarTrekDupe
+<!-- Twitter icon from https://github.com/carlsednaoui/gitsocial -->
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+_Star Trek Dupe_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### _Epicodus Code Review_
+_UI - Week 1: Building Layouts_
 
-## Development server
+#### **Dawn Mott** :sunrise_over_mountains: _May 28, 2018_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+_This app is an imitation [Star Trek](http://www.startrek.com/) site built to showcase understanding of UI concepts, including Flex Box and CSS Grid_
+<div style="text-align:center"><img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/21558666_2021084477908047_6214273360370624118_n.jpg?_nc_cat=0&oh=0abf70bdf917cd0b21d455ef5db398dd&oe=5B8F7F8F" alt="Beyone 711 video still, with her girls" width="500"></div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br>
 
-## Build
+## Specs
+_Check out info.md for additional planning information_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Setup/Installation Requirements
 
-## Running unit tests
+* _Install Angular CLI globally_
+* _Clone this repository_
+* _In a new tab, navigate to [this page](https://youtu.be/OSAOsm1u-OE)_
+* _Return to previous task_
+* _Run "npm install" in CLI_
+* _Run "ng build" in CLI_
+* _Run "ng serve --open" in CLI_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+<div style="text-align:center"><img src="https://usercontent2.hubstatic.com/13204615_f520.jpg" alt="star trek" width="500"></div>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Known Bugs
 
-## Further help
+_There are many known :bug: at this time, this is a work in progress_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Support and contact details
+
+_If you'd like to chat, please contact_ @dawnrparty _on_ ![alt text][1.1]
+
+## Technologies Used
+
+_HTML, CSS, CSS Grid, Flex Box, JavaScript, Angular, and flattery_
+
+<div style="text-align:center"><img src="https://i.gifer.com/HysY.gif" alt="spock with visor" width="500"></div>
+
+### License
+
+*This page is licensed under the MIT license*
+
+&copy; 2018 **Dawn Mott** :sunrise_over_mountains:
