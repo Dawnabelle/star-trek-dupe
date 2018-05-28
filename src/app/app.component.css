@@ -1,9 +1,16 @@
+.page-container {
+  margin: 0 auto;
+  border: 1px solid white;
+}
+.header {
+  display: flex;
+}
 .header-logo img {
   max-width: 300px;
+  border: 1px solid coral;
 }
 .header-navbar {
-  display: flex;
-  justify-content: space-between;
+  border: 1px solid hotpink;
 }
 .nav-list {
   display: flex;
@@ -17,9 +24,5 @@
   font-style: bold;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-li.nav-list-items {
-  display: flex;
   justify-content: space-between;
 }
