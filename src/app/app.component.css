@@ -1,0 +1,8 @@
+.header-logo img {
+  max-width: 300px;
+}
+.header-navbar li {
+  list-style: none;
+  font-size: 26px;
+  color: white;
+}
