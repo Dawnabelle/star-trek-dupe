@@ -1,8 +1,25 @@
 .header-logo img {
   max-width: 300px;
 }
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .header-navbar li {
   list-style: none;
   font-size: 26px;
   color: white;
+  font-style: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+li.nav-list-items {
+  display: flex;
+  justify-content: space-between;
 }
