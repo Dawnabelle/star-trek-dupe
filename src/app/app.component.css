@@ -69,7 +69,7 @@ li.nav-list-items + li.nav-list-items {
   font-style: normal;
   color: black;
 }
-.grid-container .grid-item .grid-item-image-1.grid-item-image {
+.grid-container .grid-item .grid-item-image-1 .grid-item-image {
   background-image: url("http://www.startrek.com/uploads/assets/articles/87bb030886c07ec73094ac6e91e86675c03e84c1.jpg");
   background-size: cover;
   border: 1px solid coral;
