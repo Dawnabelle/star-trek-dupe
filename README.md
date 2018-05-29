@@ -1,6 +1,7 @@
 <!-- Twitter icon from https://github.com/carlsednaoui/gitsocial -->
 [1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
 _Star Trek Dupe_
+<div style="text-align:center"><img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/21558666_2021084477908047_6214273360370624118_n.jpg?_nc_cat=0&oh=0abf70bdf917cd0b21d455ef5db398dd&oe=5B8F7F8F" alt="star trek captains" width="500"></div>
 
 #### _Epicodus Code Review_
 _UI - Week 1: Building Layouts_
@@ -10,12 +11,13 @@ _UI - Week 1: Building Layouts_
 ## Description
 
 _This app is an imitation [Star Trek](http://www.startrek.com/) site built to showcase understanding of UI concepts, including Flex Box and CSS Grid_
-<div style="text-align:center"><img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/21558666_2021084477908047_6214273360370624118_n.jpg?_nc_cat=0&oh=0abf70bdf917cd0b21d455ef5db398dd&oe=5B8F7F8F" alt="Beyone 711 video still, with her girls" width="500"></div>
-
+<div style="text-align:center"><img src="/src/assets/img/startreksite.png" alt="star trek site main page" width="500"></div>
 <br>
+_My [flattery site](http://www.dawnabelle.github.io/star-trek-dupe)_
+<div style="text-align:center"><img src="/src/assets/img/startrekdupe .png" alt="star trek site dupe main page" width="500"></div>
 
 ## Specs
-_Check out info.md for additional planning information_
+_The header navbar is made using Flex Box and the images in the body are placed using CSS Grid_
 
 ## Setup/Installation Requirements
 
