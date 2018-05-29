@@ -45,15 +45,16 @@ li.nav-list-items + li.nav-list-items {
   margin-top: 40px;
 }
 .grid-container .grid-item {
-  min-height: 320px;
   border-bottom: 2px solid #3e7bce;
+  height: 320px;
 }
 .grid-container .grid-item .grid-item-image {
-  min-height: 70%;
+  height: 250px;
+  min-height: 200px;
 }
 .grid-container .grid-item .grid-item-text {
   position: relative;
-  min-height: 30%;
+  height: 70px;
   background: black;
   padding: 15px;
 }
@@ -69,24 +70,20 @@ li.nav-list-items + li.nav-list-items {
   font-style: normal;
   color: black;
 }
-.grid-container .grid-item .grid-item-image-1 .grid-item-image {
+.grid-container .grid-item.grid-item-image-1 .grid-item-image {
   background-image: url("http://www.startrek.com/uploads/assets/articles/87bb030886c07ec73094ac6e91e86675c03e84c1.jpg");
   background-size: cover;
-  border: 1px solid coral;
 }
-.grid-container .grid-item.grid-item-image-2 {
+.grid-container .grid-item.grid-item-image-2 .grid-item-image{
   background-image: url("http://www.dailyleap.com/wp-content/uploads/2017/06/Cq4xpWCUkAAcJg5.jpg-large-640x799.jpg");
   background-size: cover;
-  border: 1px solid coral;
 }
 .grid-container .grid-item.grid-item-image-3 .grid-item-image {
   background-image: url("http://www.startrek.com/uploads/assets/articles/d5ba0790fee42267b3f89aa7998eeadfc4d3ebfb.jpg");
   background-size: cover;
-  border: 1px solid coral;
 }
 .grid-container .grid-item.span-2 {
   grid-column: span 2;
-  border: 1px solid coral;
 }
 .footer-container {
   background-color: #000;
