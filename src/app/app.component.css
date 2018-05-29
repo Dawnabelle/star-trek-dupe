@@ -1,52 +1,136 @@
 .page-container {
+  width: 80%;
   margin: 0 auto;
-  border: 1px solid white;
-  max-width: 1100px;
 }
-.header {
+.header-container {
+  margin-top: 40px;
   display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  align-self: flex-start;
 }
 .header-logo img {
   max-width: 300px;
-  border: 2px solid coral;
+  align-self: flex-end;
 }
 .header-navbar {
-  border: 2px solid hotpink;
-}
-.nav-list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #939aaa;
+}
+ul.nav-list {
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }
 .header-navbar li {
   list-style: none;
   font-size: 26px;
   color: white;
-  font-style: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  font-weight: bold;
+  display: inline-block;
+}
+.header-navbar li a {
+  text-decoration: none;
+}
+li.nav-list-items + li.nav-list-items {
+  margin-left: 30px;
 }
 .grid-container {
   display: grid;
-  /* grid-template-columns: 300px 300px 300px; */
-  /* grid-template-rows: 33% 300px auto; */
-   grid-template-columns: 1fr, 1fr, 1fr;
-  grid-auto-rows: 300px;
-  grid-auto-flow: dense;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 40px;
 }
-.grid-container div {
-  border: 2px solid coral;
+.grid-container .grid-item {
+  min-height: 320px;
+  border-bottom: 2px solid #3e7bce;
 }
-.grid-1 {
-  grid-row: span 2;
+.grid-container .grid-item .grid-item-image {
+  min-height: 70%;
+}
+.grid-container .grid-item .grid-item-text {
+  position: relative;
+  min-height: 30%;
+  background: black;
+  padding: 15px;
+}
+.grid-container .grid-item .grid-item-text em {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #3e7bce;
+  font-size: 12px;
+  padding: 5px;
+  display: inline-block;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+}
+.grid-container .grid-item .grid-item-image-1.grid-item-image {
+  background-image: url("http://www.startrek.com/uploads/assets/articles/87bb030886c07ec73094ac6e91e86675c03e84c1.jpg");
+  background-size: cover;
+  border: 1px solid coral;
+}
+.grid-container .grid-item.grid-item-image-2 {
+  background-image: url("http://www.dailyleap.com/wp-content/uploads/2017/06/Cq4xpWCUkAAcJg5.jpg-large-640x799.jpg");
+  background-size: cover;
+  border: 1px solid coral;
+}
+.grid-container .grid-item.grid-item-image-3 .grid-item-image {
+  background-image: url("http://www.startrek.com/uploads/assets/articles/d5ba0790fee42267b3f89aa7998eeadfc4d3ebfb.jpg");
+  background-size: cover;
+  border: 1px solid coral;
+}
+.grid-container .grid-item.span-2 {
   grid-column: span 2;
-  font-size: 16pt;
+  border: 1px solid coral;
 }
-.grid-1:hover, .grid-3:hover, .grid-4:hover {
-  text-decoration: underline;
+.footer-container {
+  background-color: #000;
+  margin-top: 30px;
+  min-height: 500px;
 }
+.footer-container-page-width {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 40px 0 40px 0;
+text-align: center;
+}
+.footer-container .star-trek-logo {
+  max-width: 230px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.footer-container .copy-right {
+  color: #939aaa;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  }
+.footer-container ul.footer-links {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  text-align: center;
+  border-bottom: 1px solid #939aaa;
+}
+.footer-container .footer-links li {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  height: 50px;
+}
+.footer-container .footer-links li a {
+  color: #979797;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*
 .grid-item-image {
   background-image: url("http://www.startrek.com/uploads/assets/articles/87bb030886c07ec73094ac6e91e86675c03e84c1.jpg");
   background-size: cover;
@@ -100,4 +184,4 @@
   background-color: black;
   min-height: 100px;
   margin-top:  40px;
-}
+} */
