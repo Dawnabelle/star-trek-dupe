@@ -15,6 +15,9 @@ _This app is an imitation [Star Trek](http://www.startrek.com/) site built to sh
 <br>
 _My flattery site_
 <div style="text-align:center"><img src="/src/assets/img/startrekdupe.png" alt="star trek site dupe main page" width="500"></div>
+<br>
+_Mobile size media query_
+<div style="text-align:center"><img src="/src/assets/img/star-trek-mobile.png" alt="star trek site dupe main page" width="500"></div>
 
 ## Specs
 _The header navbar is made using Flex Box and the images in the body are placed using CSS Grid_
